@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18928" started-at="2018-10-14T04:21:33Z" finished-at="2018-10-14T04:21:52Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18928" started-at="2018-10-14T04:21:33Z" finished-at="2018-10-14T04:21:52Z">
+      <class name="testCases.TestCase_Config_mrittika_FStock">
+        <test-method status="PASS" signature="Login()[pri:0, instance:testCases.TestCase_Config_mrittika_FStock@24569dba]" name="Login" duration-ms="5749" started-at="2018-10-14T04:21:33Z" finished-at="2018-10-14T04:21:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="FertilizerStockTest()[pri:1, instance:testCases.TestCase_Config_mrittika_FStock@24569dba]" name="FertilizerStockTest" duration-ms="13032" started-at="2018-10-14T04:21:39Z" finished-at="2018-10-14T04:21:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FertilizerStockTest -->
+      </class> <!-- testCases.TestCase_Config_mrittika_FStock -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

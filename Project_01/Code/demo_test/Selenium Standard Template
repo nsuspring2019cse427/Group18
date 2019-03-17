@@ -1,0 +1,49 @@
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+
+public class seleniumStandardTemplate {
+
+	
+	public  static void main(String[] args) throws InterruptedException {
+	
+	//initialize chrome driver
+	System.setProperty("webdriver.chrome.driver", "D:\\....\\chromedriver.exe");
+	WebDriver driver = new ChromeDriver();
+
+	//Maximize window
+	driver.manage().window().maximize();
+	
+	//wait for page loads
+	driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+	
+	//Goto URL
+	driver.get("http://flex.apache.org/");
+	
+	//Get menu web element
+	WebElement menu = driver.findElement(By.xpath("//a[contains(text(),'About Flex')]"));
+	
+	//Get Sub menu web element
+	WebElement submenu = driver.findElement(By.xpath("//a[contains(text), 'License & Treadmarks')]"));
+			
+	//DECLARE ACTION Object
+	Actions action = new Actions(driver);
+	
+	//Mouse HOVER on menu item
+	action.moveToElement(menu).perform();
+	
+	//Wait for sub menu items
+	Thread.sleep(3000);
+	
+	//Click on sub menu items
+	action.click(submenu).perform();
+	
+	
+	
+	
+	}	
+}

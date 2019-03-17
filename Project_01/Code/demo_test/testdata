@@ -1,0 +1,23 @@
+Url: 192.168.100.202:8080/unifiedeagro/auth/login
+http://118.67.220.50/unifiedeagro/auth/login
+username: gisb_sqa@grameen-intel.com
+password: AusTin4#
+
+
+
+thread.sloop(4000);
+
+Tools: 
+1. CSS and XPath checker (chrome)
+2. CSS Selector Tester (chrome)
+
+//Hoverable Multilevel Dropdowns:
+ mousehttp://www.testautomationguru.com/selenium-webdriver-automating-hoverable-multilevel-dropdowns/
+ http://www.seleniumeasy.com/selenium-tutorials/how-to-perform-mouseover-action-in-selenium-webdriver
+ 
+ video: 
+ https://www.youtube.com/watch?v=cP-tvGcODaM
+ search: https://www.youtube.com/results?search_query=mouse+hover+in+selenium
+ 
+ 
+ Course: http://testleaf.com/course/selenium-weekdays/
